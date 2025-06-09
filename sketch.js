@@ -33,7 +33,7 @@ function draw() {
   for (let tower of towers) {
     tower.show();
     tower.shoot(enemies);
-  }
+  }//aperta em cima dos inimigos para plantar o repolho
 
   // Vitória / Derrota
   if (pollution >= 100) {
